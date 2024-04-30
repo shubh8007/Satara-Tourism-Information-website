@@ -1,0 +1,31 @@
+/* kass-pathar.css */
+
+/* Style the header to be centered */
+header {
+    background-color: #de810785; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Center the images */
+.fort img {
+    display: block; /* Prevent extra space below images */
+    margin: 0 auto; /* Center images horizontally */
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+/* Style the heading */
+.fort h2 {
+    color: white; /* Set text color to white */
+}
+.fort p{
+    color: white;
+}
+
+/* Highlighted information in yellow blocks */
+.highlighted-info {
+    background-color: rgba(212, 255, 0, 0.895);
+    padding: 10px;
+    margin-bottom: 20px; /* Add some space between highlighted blocks */
+}

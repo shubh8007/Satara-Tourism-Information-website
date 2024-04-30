@@ -1,0 +1,39 @@
+/* forts.css */
+
+body {
+    background-image: url('https://st2.depositphotos.com/18014766/50455/v/600/depositphotos_504550746-stock-video-kesariya-flag-closeup-1080p-full.jpg'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+/* forts.css */
+
+/* Style the header */
+header {
+    background-color: #4CAF50; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Center the images */
+header {
+    background-color: #af954c85; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Center the images */
+.fort img {
+    display: block; /* Prevent extra space below images */
+    margin: 0 auto; /* Center images horizontally */
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+/* Style the heading */
+.fort h2 {
+    color: white; /* Set text color to white */
+}
+.fort p{
+    color: white;
+}

@@ -1,0 +1,37 @@
+/* dams.css */
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/blue_53876-88970.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714089600&semt=ais'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+
+}
+header {
+    background-color: #4CAF50; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Center the images */
+header {
+    background-color: #af954c85; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Center the images */
+.dam img {
+    display: block; /* Prevent extra space below images */
+    margin: 0 auto; /* Center images horizontally */
+    max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+/* Style the heading */
+.dam h2 {
+    color: rgb(181, 85, 7); /* Set text color to white */
+}
+.dam p{
+    color: rgb(92, 50, 5);
+}

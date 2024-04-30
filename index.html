@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satara Tourism Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style the buttons */
+        .destination-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Kass Pathar button */
+        .kass-pathar-button {
+            background-color: #FF5733; /* Orange color */
+        }
+
+        /* Koyna Dam button */
+        .koyna-dam--button {
+            background-color: #3366FF; /* Blue color */
+        }
+
+        /* Forts button */
+        .forts-button {
+            background-color: #33CC33; /* Green color */
+        }
+
+        /* Mahabaleshwar button */
+        .mahabaleshwar-button {
+            background-color: #FF33CC; /* Pink color */
+        }
+        @keyframes moveText {
+            0% { transform: translateY(-50px); }
+            50% { transform: translateY(50px); }
+            100% { transform: translateY(-50px); }
+        }
+
+        /* Style the header */
+        header {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            animation: moveText 5s infinite; /* Apply the animation */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rajdhani Satara Tourism</h1>
+        <!-- Navigation Links -->
+        
+      
+    </header>
+   
+    <section id="home">
+        <h2 style="text-align: center;">Explore Amazing Destinations</h2>
+        <hr style="width: 50%; margin: auto;"> <!-- Horizontal line centered -->
+        <div style="text-align: center;">
+            <!-- Buttons for destinations -->
+            <a href="kasspathar.html" class="destination-button kass-pathar-button">Kass Pathar</a>
+            <a href="forts.html" class="destination-button koyna-dam-button">Forts</a>
+            <a href="dams.html" class="destination-button forts-button"> Dams </a>
+           
+        </div>
+    </section>
+
+    <section id="destinations">
+        <h2 style="text-align: center;">Hills Station</h2>
+        <hr style="width: 50%; margin: auto;">
+        <ul style="list-style-type:none; text-align:center;">
+            <li> <a href="mahabaleshwar.html" class="destination-button mahabaleshwar-button">Mahabaleshwar</a></li>
+        </ul>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Tourism Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

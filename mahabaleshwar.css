@@ -1,0 +1,17 @@
+
+/* mahabaleshwar.css */
+
+/* Style the header */
+header {
+    background-color: #ce6017; /* Set colorful background */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Set background image for the body */
+body {
+    background-image: url('https://img.freepik.com/free-vector/pride-gradient-1_78370-282.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714089600&semt=ais'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}

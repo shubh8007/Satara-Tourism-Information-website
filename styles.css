@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('https://i.pinimg.com/originals/3d/cf/3c/3dcf3c72131cc29591c5841e8525cfa9.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background */
+}
+
+
+header {
+    background-color: #e18419fa;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+#tourism-image {
+    max-width: 100%; /* Set maximum width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.index home{
+    text-align: center;
+}
+
+/* Add more styles for sections, footer, etc. */
